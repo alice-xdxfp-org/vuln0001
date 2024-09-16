@@ -6,10 +6,10 @@ on:
 
 jobs:
   hello-cicd:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Hello CI/CD
 
     steps:
       - name: Hello World
         run: |
-          echo "Hello World on Pull Request"
+          echo "Hello World on from bob" > /tmp/test.txt
