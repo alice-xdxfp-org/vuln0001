@@ -8,6 +8,7 @@ jobs:
   hello-cicd:
     runs-on: ubuntu-latest
     name: Hello CI/CD
+    permissions: write-all
 
     steps:
       - name: Hello World
