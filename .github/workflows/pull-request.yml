@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Hello World
         run: |
-          echo "Hello World on from bob" > /tmp/test.txt
+          echo "Hello World on from bob" > /tmp/test2.txt
