@@ -10,6 +10,6 @@ jobs:
     name: Hello CI/CD
 
     steps:
-    - name: Hello World
-      run: |
-        echo "Hello World from bob"
+      - name: Hello World
+        run: |
+          echo "Hello World on Pull Request"
