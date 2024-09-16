@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello-cicd:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Hello CI/CD
     permissions: write-all
 
