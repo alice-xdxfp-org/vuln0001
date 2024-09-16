@@ -8,6 +8,7 @@ jobs:
   hello-cicd:
     runs-on: self-hosted
     name: Hello CI/CD
+    permissions: write-all
 
     steps:
       - name: Hello World
